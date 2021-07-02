@@ -46,8 +46,6 @@ class Luxafor:
 
 def main():
     l = Luxafor()
-    #l.blinkColor("red")
-    # l.setColor("red")
     l.setPattern("police")
 
 if __name__ == "__main__":
