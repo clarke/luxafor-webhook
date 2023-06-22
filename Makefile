@@ -1,11 +1,14 @@
 test:
-	pipenv run python3 ./test-set.py
+	python3 ./test-set.py
 
 busy:
-	pipenv run python3 ./set-busy.py
+	python3 ./set-busy.py
 
 free:
-	pipenv run python3 ./set-free.py
+	python3 ./set-free.py
 
 police:
-	pipenv run python3 ./run-police.py
+	python3 ./run-police.py
+
+setup:
+	python3 -m pip install -r requirements.txt
